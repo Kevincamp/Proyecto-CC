@@ -1,4 +1,4 @@
-![Dulce Arte](./.github/dulceArte@3x.png?style=centerme)
+![Dulce Arte](./.github/dulceArte@3x.png)
 
 # Mi Dulce Arte
 Dulce Arte es una tienda de insumos de pastelería para pequeñas y grandes empresas que tiene sus registros en excel. Realizar un sistema que migre su catalogo y realice venta en línea es un caso a futuro. Por el momento para dar un paso hacia ello se plantea lo siguiente para aumentar sus ventas.
