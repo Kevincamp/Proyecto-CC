@@ -22,7 +22,7 @@ Una vez obtenida la receta deseada, el usuario indicará la cantidad de personas
 
 ## Herramientas y tecnología 
 * ![icon](./.github/vapor-icon.png) [Vapor](https://vapor.codes) es actualmente el más popular Swift framework para realizar aplicaciones web. Lo escogí por que me ayudará a reutilizar clases y módulos en la aplicación móvil de iOS para este proyecto, con esto será un desarrollo mas ágil, rápido y escalable.
-* [MongoDB](https://www.mongodb.com) siendo utilizada como una base de datos de consulta rapida.
+* [MongoDB](https://www.mongodb.com) base de datos no relacional.
 
 
 ## Arquitectura
