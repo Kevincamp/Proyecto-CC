@@ -26,7 +26,7 @@ Una vez obtenida la receta deseada, el usuario indicará la cantidad de personas
 
 
 ## Arquitectura
-La arquitectura planteada para el problema descrito es la arquitectura de *microservicios*, el hecho de que cada microservicio funcione de manera independiente da la flexibilidad para escalar, y en un futuro realizar el módulo de venta en línea. 
+La arquitectura planteada para el problema descrito es la arquitectura de *microservicios*, el hecho de que cada microservicio funcione de manera independiente da la flexibilidad para escalar, y en un futuro realizar el módulo de venta en línea.
 
 ## Licencia
 Mi Dulce Arte esta bajo la licencia MIT. 
