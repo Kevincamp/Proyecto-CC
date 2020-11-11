@@ -1,32 +1,35 @@
 ![Dulce Arte](./.github/dulceArte@3x.png)
 
 # Mi Dulce Arte
-Dulce Arte es una tienda de insumos de pastelería para pequeñas y grandes empresas que tiene sus registros en excel. Realizar un sistema que migre su catalogo y realice venta en línea es un caso a futuro. Por el momento para dar un paso hacia ello se plantea lo siguiente para aumentar sus ventas.
-
-Dulce Arte desea crear un modulo de venta de productos por receta, __Mi Dulce Arte__.   
-Este módulo tendrá su aplicación iOS la cual contará con las siguiente opciones:
-* Consultar receta por Nombre.
-* Basándonos en los ingredientes ingresados, obtener la receta más próxima que se pueda realizar con ellos.
-* Ingresar nueva receta.
-* Modificar receta existente.
-* Eliminar receta existente.
-* Calificar receta.
-
-Una vez obtenida la receta deseada, el usuario indicará la cantidad de personas para los cuales se desea preparar esta receta, esto indicara a la aplicación la medida de cada ingrediente. Esta lista final de ingredientes ingresados con su medida pasa a ser presupuestada por los valores que tenga de Dulce Arte, **este modulo no realizará venta en línea, solamente despacho y pago contra entrega.**
+Proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada. 
 
 ## Contenido
-* [Herramientas y tecnología](#Tools-and-technology)
+* [Descripción del problema](#problem)
 * [Arquitectura](#architecture)
 * [Licencia](#license)
+* [Configuración del repositorio]()
 
+# Descripción del problema
+Dulce Arte necesita aumentar sus ventas, más no desea el desarrollo de una pagina web debido a su costo es muy elevado. Como características para una buscar una solución innovadora nos brinda los siguientes datos:
 
-## Herramientas y tecnología 
-* ![icon](./.github/vapor-icon.png) [Vapor](https://vapor.codes) es actualmente el más popular Swift framework para realizar aplicaciones web. Lo escogí por que me ayudará a reutilizar clases y módulos en la aplicación móvil de iOS para este proyecto, con esto será un desarrollo mas ágil, rápido y escalable.
-* [MongoDB](https://www.mongodb.com) base de datos no relacional.
+* Debido a la pandemia se vio la tendencia de realizar postres en casa, algunas recetas las encontraban en linea y otras se conseguían por contacto directo con la persona que conocia del postre a realizar, siendo esta ultima repartida a una cantidad limitada de personas que la llegaba a conocer.
 
+* Hay 2 tipos de cliente(persona que tiene contacto con la tienda), el cliente que es pastelero y el cliente regular, que tienen un conocimiento básico de como realizar ciertos pasteles.
+
+* El cliente tenia comunicación con dulce arte de 2 maneras, o se acercaba físicamente al lugar o realizaba la compra por mensajería y el pago ser lo realizaba contra entrega o deposito bancario.
+
+* El cliente regular se comunicaba con la tienda por preguntar la cantidad/medida que debe llevar por cada ingrediente del postre a preparar en base a la cantidad de personas a las que se desea servir, al contrario de los pasteleros que conocían cuanto debían comprar.
+
+* Los clientes regulares tienen un conocimiento básico de como realizar la receta pero en ciertas ocasiones realizan preguntas de "cómo", "cuánto tiempo", "qué se realiza despues".
+
+* Algunos pasteleros han indicado a la tienda que quieren darse a conocer para que pueden tomar pedidos de otras personas que necesiten ayuda con algún postre o realizar un pedido de un postre en especifico.
+
+* En las ventas por mensajeria solo acuden por ingredientes sin tener conocimiento que también se vende utensilios de pastelería como paletas, batidoras y démas.
 
 ## Arquitectura
 La arquitectura planteada para el problema descrito es la arquitectura de *microservicios*, el hecho de que cada microservicio funcione de manera independiente da la flexibilidad para escalar, y en un futuro realizar el módulo de venta en línea.
 
 ## Licencia
 Mi Dulce Arte esta bajo la licencia MIT. 
+
+**Nota extra: Este proyecto no realizará venta en línea**
