@@ -22,4 +22,16 @@ final class AppTests: XCTestCase {
             XCTFail("Not found")  
         })
     }
+    
+    func testName() throws {
+        let user = User(name: "Kevin", username: "kvncamp")
+        do {
+            let valid = try user.validateName()
+            XCTAssertEqual(valid, "valid name")
+            
+        } catch {
+            print(error)
+        }
+        
+    }
 }
