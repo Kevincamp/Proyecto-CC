@@ -20,6 +20,6 @@ La arquitectura propuesta para el problema descrito es la arquitectura de *micro
 
 
 ## Herramientas
-En un inicio se penso por utilizar a NodeJS, pero por interes propio y por ver los proyectos ya realizados escogí [Vapor](https://vapor.codes). Vapor es Server Side framework que utiliza el lenguaje (Swift)(https://swift.org). Lenguaje que se ha utilizado para el desarrollo de aplicaciones moviles, de escritorio y otros de los dispositivos de Apple.
+En un inicio se penso por utilizar a NodeJS, pero por interes propio y por ver los proyectos ya realizados escogí [Vapor](https://vapor.codes). Vapor es Server Side framework que utiliza el lenguaje [Swift](https://swift.org). Lenguaje que se ha utilizado para el desarrollo de aplicaciones moviles, de escritorio y otros de los dispositivos de Apple.
 
 **Nota extra: Este proyecto no realizará venta en línea**
