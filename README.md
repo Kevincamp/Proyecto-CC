@@ -6,9 +6,9 @@
 Este es un proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada.
 
 ## Historias de usuario
-En el proyecto se identifico 2 posibles usuarios, con ellos se generaron las siguientes historias de usuarios:
-* Administrador, encargado de la venta y administración de la tienda: [Administrador](https://github.com/Kevincamp/Mi-Dulce-Arte/issues?q=is%3Aopen+is%3Aissue+label%3AAdministrador)
-* Cliente, interesado en comprar articulos en la tienda: [Cliente](https://github.com/Kevincamp/Mi-Dulce-Arte/issues?q=is%3Aopen+is%3Aissue+label%3ACliente)
+En el proyecto se identifico 2 posibles roles de usuarios, con ellos se generaron las siguientes historias de usuarios:
+* **Administrador**, encargado de la venta y administración de la tienda: [Administrador](https://github.com/Kevincamp/Mi-Dulce-Arte/issues?q=is%3Aopen+is%3Aissue+label%3AAdministrador)
+* **Cliente**, interesado en comprar articulos en la tienda: [Cliente](https://github.com/Kevincamp/Mi-Dulce-Arte/issues?q=is%3Aopen+is%3Aissue+label%3ACliente)
 
 ## Definición de arquitectura
 Para Dulce Arte he escogido el lenguaje Swift, un lenguaje con el que he desarrollado aplicaciones mobiles y de hace unos años atras ya tiene su framework Web que permite trabajar con swift del lado del servidor. Es un lenguaje  multiparadigma(Orientado a protocolos, objetos, funcional y programación imperativa).
