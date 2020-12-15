@@ -1,5 +1,5 @@
 # Roadmap
-Este documento se actualizará con el avance del proyecto. Las funcionalidades se agruparan por _productos minimos viables_ que corresponder a hito. Se iran añadiendo funcionalidades y planes futuros.
+Este documento se actualizará con el avance del proyecto. Las funcionalidades se agruparan por _productos mínimos viables_ que corresponder a hito. Se irán añadiendo funcionalidades y planes futuros.
 
 ## MVP 1
 Como primer punto para este producto mínimamente viable decidí que tengo que definir las entidades y atributos. Una de las entidades claves que hemos revisado según las historias de usuario es el usuario que tendra dos roles, puede ser [HU cliente o administrador](https://github.com/Kevincamp/Mi-Dulce-Arte/issues/15) debemos de distingar las propiedades necesarias para cada uno de ellos, tenemos que contemplar que un [HU administrador puede eliminar a clientes](https://github.com/Kevincamp/Mi-Dulce-Arte/issues/19), asi como tambien poder [HU registrarlo](https://github.com/Kevincamp/Mi-Dulce-Arte/issues/15).
