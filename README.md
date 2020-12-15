@@ -1,7 +1,8 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 ![Dulce Arte](./.github/dulceArte@3x.png)
 
 # Mi Dulce Arte (En desarrollo)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 Este es un proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada.
 
 
@@ -20,12 +21,9 @@ En el proyecto se identifico 2 posibles usuarios, con ellos se generaron las sig
 
 ## Documentación Adicional
 * [Kanban](https://github.com/Kevincamp/Mi-Dulce-Arte/projects/1?add_cards_query=is%3Aopen)
-* [Roadmap](./docs/roadmap.md)
+* [Roadmap](./docs/hito1/roadmap.md)
 * [Clases programadas](./docs/hito1/entities.md)
 * [Producto mínimo viable MVP]()
-* [Producto minimo viable correspondiente a cada hito]()
-
-
 
 ## Contenido Pasado
 * [Tema Descripción del proyecto y Git](./docs/hito0/hito0.md)

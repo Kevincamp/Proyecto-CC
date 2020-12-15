@@ -1,4 +1,3 @@
-# Hito 0
-
-* [Descripción del problema](./docs/hito0/problemDescrip.md)
-* [Configuración del repositorio](./docs/hito0/configRepo.md)
+# Tema Descripción del proyecto y Git
+* [Descripción del problema](../problemDescrip.md)
+* [Configuración del repositorio](../configRepo.md)
