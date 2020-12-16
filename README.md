@@ -5,7 +5,6 @@
 # Mi Dulce Arte (En desarrollo)
 Este es un proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada.
 
-
 ## Definición de arquitectura
 Para Dulce Arte he escogido el lenguaje Swift, un lenguaje con el que he desarrollado aplicaciones mobiles y de hace unos años atras ya tiene su framework Web que permite trabajar con swift del lado del servidor. Es un lenguaje  multiparadigma(Orientado a protocolos, objetos, funcional y programación imperativa).
 
