@@ -1,50 +1,28 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 ![Dulce Arte](./.github/dulceArte@3x.png)
 
-# Mi Dulce Arte
-Proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada. 
-
----
-
-## Contenido
-* La descripción del problema puede revisarla en el siguiente [enlace](./docs/problemDescrip.md)
-* Arquitectura
-* Herramientas
-* El roadmap del proyecto lo puede encontrar [aquí](./docs/roadmap.md) 
-* Para ver el plan del proyecto ingrese a este [enlace](https://github.com/Kevincamp/Mi-Dulce-Arte/projects/1?add_cards_query=is%3Aopen) 
-* Clases y Estructura del proyecto
-
-* [Configuración del repositorio](./docs/configRepo.md)
-
----
-## Arquitectura
-La arquitectura propuesta para el problema descrito es la arquitectura de *microservicios*. Sé la escoge debido a la independencia de unos servicios con otros, esto indica una gran escalabilidad que pronto podrá ser vinculada con otros servicios que empiece a ofrecer dulce arte.
+# Mi Dulce Arte (En desarrollo)
+Este es un proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada.
 
 
-## Herramientas
-En un inicio se pensó por utilizar a NodeJS, pero por interés propio y por ver los proyectos ya realizados escogí [Vapor](https://vapor.codes). Vapor es Server Side framework que utiliza el lenguaje [Swift](https://swift.org). Lenguaje que se ha utilizado para el desarrollo de aplicaciones móviles, de escritorio y otros de los dispositivos de Apple.
+## Definición de arquitectura
+Para Dulce Arte he escogido el lenguaje Swift, un lenguaje con el que he desarrollado aplicaciones mobiles y de hace unos años atras ya tiene su framework Web que permite trabajar con swift del lado del servidor. Es un lenguaje  multiparadigma(Orientado a protocolos, objetos, funcional y programación imperativa).
 
-Para el marco de pruebas utilizaremos [XCTest](https://developer.apple.com/documentation/xctest), es el framework de Swift para pruebas unitarias, de rendimientos y pruebas UI.
+Analizando la aplicación.. Tenemos la gestión y administración de la tienda la cual se da un mantenimiento de los artículos y del catálogo de la tienda. Además de cumplir con el rol del cliente que es de la consulta y adquisición de artículos. Para aumentar las ventas de la tienda he mencionado que se necesita hacer campaña de promociones y descuentos, para que el cliente tenga la atención de ellos se enviaran estas por correo electronico o por mensajería. 
 
-## Clases y Estructura del proyecto
-* Cuando se genera un proyecto *Vapor*, tiene la siguiente estructura de ficheros por defecto
-`project/
-    package.swift
-    |-- Sources/
-        |-- App/
-            |-- Controllers/
-            |-- Models/
-            Configure.swift
-            Routes.swift
-        |-- Run/
-            |-- main
-    |-- Test/
-        |-- AppTests/`
+Mencionado lo anterior, he decido optar por una arquitectura de microservicios, aunque la última parte brinda más por una arquitectura basada en eventos, quiza esto se lo pueda realizar en otro proyecto o tratar de adaptarlo en un servicio. La ventaja que me provee la arquitectura por microservicios es la independencia de unos servicios con otros, la mejora continua y rápida de cada funcionalidad, la facilidad del mantenimiento de un módulo a la vez sin que el resto sea afectado, esto indica una gran escalabilidad que pronto podrá ser vinculada con otros servicios que se empiezen en el futuro.
 
-* Las entidades principales de la aplicación son las siguientes:
-    * [Catalogo](./Sources/App/Models/Catalogue.swift): Clase encargada de manejar los artículos disponibles para venta.
-    * [Item](./Sources/App/Models/Item.swift): Artículo a vender, puede ser dos tipos utensilio o ingrediente 
-    * [Order](./Sources/App/Models/Order.swift): Lista de artículos que pedirá el usuario a la tienda.
-    * [User](./Sources/App/Models/User.swift): Usuario que interactúa con la tienda, tiene dos roles cliente o administrador.
+## Historias de usuario
+En el proyecto se identifico 2 posibles roles de usuarios, con ellos se generaron las siguientes historias de usuarios:
+* **Administrador**, encargado de la venta y administración de la tienda: [Administrador](https://github.com/Kevincamp/Mi-Dulce-Arte/issues?q=is%3Aopen+is%3Aissue+label%3AAdministrador)
+* **Cliente**, interesado en comprar articulos en la tienda: [Cliente](https://github.com/Kevincamp/Mi-Dulce-Arte/issues?q=is%3Aopen+is%3Aissue+label%3ACliente)
 
+## Documentación Adicional
+* [Kanban](https://github.com/Kevincamp/Mi-Dulce-Arte/projects/1?add_cards_query=is%3Aopen)
+* [Roadmap](./docs/hito1/roadmap.md)
+* [Clases programadas](./docs/hito1/entities.md)
+* [Producto mínimo viable 1](./docs/hito1/mvp.md)
 
-**Nota extra: Este proyecto no realizará venta en línea**
+## Contenido Pasado
+* [Tema Descripción del proyecto y Git](./docs/hito0/hito0.md)
