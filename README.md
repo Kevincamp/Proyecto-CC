@@ -6,7 +6,7 @@
 Este es un proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada.
 
 ## Definición de arquitectura
-Para Dulce Arte he escogido el lenguaje Swift, un lenguaje con el que he desarrollado aplicaciones mobiles y de hace unos años atras ya tiene su framework Web que permite trabajar con swift del lado del servidor. Es un lenguaje  multiparadigma(Orientado a protocolos, objetos, funcional y programación imperativa).
+Dulce Arte se realizará con NodeJS, utilizando un framework node express. El motivo de esta elección se da tras ver las ventajas que tiene sobre Vapor y Go una de ellas es su adaptabilidad con otras herramientas.
 
 Analizando la aplicación.. Tenemos la gestión y administración de la tienda la cual se da un mantenimiento de los artículos y del catálogo de la tienda. Además de cumplir con el rol del cliente que es de la consulta y adquisición de artículos. Para aumentar las ventas de la tienda he mencionado que se necesita hacer campaña de promociones y descuentos, para que el cliente tenga la atención de ellos se enviaran estas por correo electronico o por mensajería. 
 
@@ -19,9 +19,9 @@ En el proyecto se identifico 2 posibles roles de usuarios, con ellos se generaro
 
 ## Documentación Adicional
 * [Kanban](https://github.com/Kevincamp/Mi-Dulce-Arte/projects/1?add_cards_query=is%3Aopen)
-* [Roadmap](./docs/hito1/roadmap.md)
-* [Clases programadas](./docs/hito1/entities.md)
-* [Producto mínimo viable 1](./docs/hito1/mvp.md)
+* [Roadmap](./docs/entrega1/roadmap.md)
+* [Clases programadas](./docs/entrega1/entities.md)
+* [Producto mínimo viable 1](./docs/entrega1/mvp.md)
 
 ## Contenido Pasado
-* [Tema Descripción del proyecto y Git](./docs/hito0/hito0.md)
+* [Tema Descripción del proyecto y Git](./docs/entrega0/entrega0.md)
