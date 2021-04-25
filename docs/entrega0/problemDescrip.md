@@ -1,4 +1,5 @@
 # Descripción del problema
+
 Dulce Arte necesita aumentar sus ventas, más no desea el desarrollo de una pagina web debido a su costo es muy elevado. Como características para una buscar una solución innovadora nos brinda los siguientes datos:
 
 * Debido a la pandemia se vio la tendencia de realizar postres en casa, algunas recetas las encontraban en linea y otras se conseguían por contacto directo con la persona que conocia del postre a realizar, siendo esta ultima repartida a una cantidad limitada de personas que la llegaba a conocer.
